@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pseudoclasses & pseudoelements</title>
+  <style>
+    p {
+      font-size: 32px;
+      color: gray;
+    }
+    p::first-letter{
+      color: lime;
+      font-size: 38px;
+    }
+    p::before{
+      content: "🤔";
+    }
+    
+    p::after{
+      content: "💚";
+    }
+    p:hover{
+      color: hotpink;
+    }
+    
+    div p:nth-child(2){
+      color: lawngreen;
+    }
+    
+    ::placeholder{
+      color: magenta;
+    }
+    
+    input:in-range {
+      background-color: rgba(114, 245, 114, 0.25);
+    }
+    
+    input:out-of-range {
+      background-color: rgba(245, 128, 128, 0.25);
+      border: 2px solid red;
+    }
+    
+    input:in-range + p::after {
+      content: 'Mayor de edad. 🚀';
+    }
+    
+    input:out-of-range + p::after {
+      content: 'Menor de edad. 🙈';
+    }
+  </style>
+</head>
+<body>
+  <p>Hola</p>
+  <div>
+    <p>Platzi</p>
+    <p>Master</p>
+    <p>lo mejor</p>
+    <input type="text" placeholder="Hello mate">
+    <br>
+    <label for="age">Intoduce tu edad y te digo si eres menor o mayor de edad</label>
+    <input type="number" name="age" id="age" min="18" max="100" value="14">
+    <p>Eres: </p>
+  </div>
+</body>
+</html>

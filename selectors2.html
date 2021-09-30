@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Selectors class 3</title>
+  <style>
+    /* div p{
+      color: lime;
+    } */
+
+    div > div {
+      background: peru;
+    }
+
+    .eg {
+      background: red;
+    }
+
+    div + section{
+      background: peachpuff;
+    }
+
+    div ~ p {
+      color: purple;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <div>
+      <p>Hola</p>
+      <div class="eg">que</div>
+      <p>se dice</p>
+    </div>
+  </div>
+  <p>
+    Clase de selector hermano
+  </p>
+  <p>
+    Clase de selector hermano (Otro)
+  </p>
+  <section>
+    It's amazing
+  </section>
+  <div>
+    Platzi Master
+  </div>
+</body>
+</html>
