@@ -9,3 +9,4 @@
 - Lista de códigos y nombres [Web](https://htmlcolorcodes.com/es/)
 - Curso de animación con CSS [Platzi](https://platzi.com/clases/animaciones-css/)
 - Ejemplo con ```:in-range``` y ```:out-of-range``` [Codepen](https://codepen.io/JoeMancera/pen/qBjvVmK)
+- Calculadora de especificidad [Specificity](https://specificity.keegan.st/)
