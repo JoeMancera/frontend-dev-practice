@@ -10,3 +10,7 @@
 - Curso de animación con CSS [Platzi](https://platzi.com/clases/animaciones-css/)
 - Ejemplo con ```:in-range``` y ```:out-of-range``` [Codepen](https://codepen.io/JoeMancera/pen/qBjvVmK)
 - Calculadora de especificidad [Specificity](https://specificity.keegan.st/)
+- Flexbox guide [CSS-tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- Grid guide [CSS_trics](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- Juego para practicar flexbox [Flexbox froggy](https://flexboxfroggy.com/#es)
+- Jueg para parcticar grid [Grid garden](https://cssgridgarden.com/)
