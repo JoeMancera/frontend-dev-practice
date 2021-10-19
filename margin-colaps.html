@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Colpso de margenes</title>
+  <style>
+    div {
+      margin: 20px;
+      border: 1px dotted blue;
+    }
+
+    section {
+      border: 1px dotted red;
+    }
+
+    .container-flex{
+      background: burlywood;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .container-grid{
+      background: cornsilk;
+      display: grid;
+    }
+  </style>
+</head>
+<body>
+  <p>
+    <div>elemento</div>
+    <div>bloque</div>
+  </p>
+  <section class="container-flex">
+    <div>elemento</div>
+    <div>flex</div>
+  </section>
+
+  <section class="container-grid">
+    <div>elemento</div>
+    <div>grid</div>
+  </section>
+</body>
+</html>
