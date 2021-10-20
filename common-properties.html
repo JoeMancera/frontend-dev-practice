@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Common properties</title>
+  <style>
+    section {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    
+    .card {
+      width: 300px;
+      height: 300px;
+      background: papayawhip;
+      border-radius: 20px;
+      overflow: hidden;
+    }
+
+    .card img {
+      width: 100px;
+    }
+
+    .card p {
+      text-align: center;
+    }
+
+    .card p:nth-child(3) {
+      color: purple;
+    }
+  </style>
+</head>
+<body>
+  <section>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1526336024174-e58f5cdd8e13?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80" alt="cat with butterfly">
+      <p>Cat: butterfly</p>
+      <p>Love</p>
+    </div>
+  </section>
+</body>
+</html>
